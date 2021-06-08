@@ -16,11 +16,18 @@ app.use("/", test);
 mongoose.connect(
   process.env.DB_CONNECTION_STRING,
   { useNewUrlParser: true, useUnifiedTopology: true },
-  () => console.log("Connected to database"),
-  console.log("/................................................")
+  () => {
+    console.log("................................................");
+    console.log(`${os.hostname()}:${port} has connected to database`);
+    console.log("................................................");
+  }
 );
 //--------------------------------------------------------------------------------------------------------
+//Listening...
 app.listen(port, () => {
   console.clear();
-  console.log(os.hostname() + ":" + port);
+  console.log("................................................");
+  console.log(
+    `${os.hostname()}:${port} is listening on http://localhost:${port}/`
+  );
 });
