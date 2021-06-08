@@ -1,0 +1,50 @@
+[
+  {
+    "name": "BadRequest",
+    "message": "invalid ref",
+    "description": "Ref refers to undefined index 'all_warehouses1'",
+    "date": "2021-06-08T09:18:28.089Z"
+  },
+  {
+    "name": "BadRequest",
+    "message": "invalid expression",
+    "description": "No form/function found, or invalid argument keys: { ref }.",
+    "date": "2021-06-08T09:22:17.493Z"
+  },
+  {
+    "name": "BadRequest",
+    "message": "invalid expression",
+    "description": "No form/function found, or invalid argument keys: { ref }.",
+    "date": "2021-06-08T09:25:01.241Z"
+  },
+  {
+    "name": "NotFound",
+    "message": "instance not found",
+    "description": "Document not found.",
+    "date": "2021-06-08T09:27:02.941Z"
+  },
+  {
+    "name": "NotFound",
+    "message": "instance not found",
+    "description": "Document not found.",
+    "date": "2021-06-08T09:29:34.740Z"
+  },
+  {
+    "name": "NotFound",
+    "message": "instance not found",
+    "description": "Document not found.",
+    "date": "2021-06-08T09:30:33.967Z"
+  },
+  {
+    "name": "NotFound",
+    "message": "instance not found",
+    "description": "Document not found.",
+    "date": "2021-06-08T09:31:10.623Z"
+  },
+  {
+    "name": "NotFound",
+    "message": "instance not found",
+    "description": "Document not found.",
+    "date": "2021-06-08T09:31:31.498Z"
+  }
+]
