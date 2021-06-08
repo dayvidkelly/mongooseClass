@@ -19,9 +19,7 @@ mongoose.connect(
   () => console.log("Connected to database"),
   console.log("/................................................")
 );
-
 //--------------------------------------------------------------------------------------------------------
-
 app.listen(port, () => {
   console.clear();
   console.log(os.hostname() + ":" + port);
