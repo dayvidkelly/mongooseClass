@@ -14,7 +14,7 @@ class Server {
   start(clearConsole = true, pathToFile = "") {
     this.initializeEnvironment();
     this.initializeParcer();
-    this.initializeConnectionToDb();
+    //this.initializeConnectionToDb();
     this.initializeListening(clearConsole);
     this.initializePublicFiles(pathToFile);
   }
