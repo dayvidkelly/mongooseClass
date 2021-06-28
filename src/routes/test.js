@@ -4,7 +4,7 @@ const Database = require("../utilities/database");
 const database = new Database();
 //--------------------------------------------------------------------------------------------------------
 router.get("/", async (req, res) => {
-  res.send(`Hello World`);
+  res.send(`Hello World ${req.headers["x-real-ip"]}`);
 });
 //--------------------------------------------------------------------------------------------------------
 module.exports = router;
