@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 var os = require("os");
-const port = 3000;
+const port = 5001;
 class Server {
   constructor(middleware) {
     this.initializeMiddleware(middleware);
